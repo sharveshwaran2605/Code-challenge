@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<database>
+  <users>
+    <user>
+      <id>USR-1001</id>
+      <name>Arun Kumar</name>
+      <email>arun@example.com</email>
+      <password>Admin@123</password>
+      <role>admin</role>
+      <status>active</status>
+      <department>Engineering</department>
+    </user>
+    <user>
+      <id>USR-1002</id>
+      <name>Priya Sharma</name>
+      <email>priya@example.com</email>
+      <password>User@123</password>
+      <role>user</role>
+      <status>active</status>
+      <department>Operations</department>
+    </user>
+    <user>
+      <id>USR-1003</id>
+      <name>Rahul Menon</name>
+      <email>rahul@example.com</email>
+      <password>User@123</password>
+      <role>user</role>
+      <status>active</status>
+      <department>Finance</department>
+    </user>
+  </users>
+  <records>
+    <record>
+      <id>REC-5001</id>
+      <userId>USR-1002</userId>
+      <type>Employment</type>
+      <subject>ABC Technologies</subject>
+      <status>Verified</status>
+      <score>96</score>
+      <updatedAt>2026-10-05</updatedAt>
+    </record>
+    <record>
+      <id>REC-5002</id>
+      <userId>USR-1002</userId>
+      <type>Education</type>
+      <subject>Velammal Institute of Technology</subject>
+      <status>Verified</status>
+      <score>98</score>
+      <updatedAt>2026-10-03</updatedAt>
+    </record>
+    <record>
+      <id>REC-5003</id>
+      <userId>USR-1003</userId>
+      <type>Identity</type>
+      <subject>Government ID</subject>
+      <status>Pending</status>
+      <score>78</score>
+      <updatedAt>2026-10-06</updatedAt>
+    </record>
+    <record>
+      <id>REC-5004</id>
+      <userId>USR-1003</userId>
+      <type>Address</type>
+      <subject>Residential Address</subject>
+      <status>Verified</status>
+      <score>91</score>
+      <updatedAt>2026-10-02</updatedAt>
+    </record>
+  </records>
+</database>
